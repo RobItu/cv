@@ -1,0 +1,53 @@
+div {
+  background-color: powderblue;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: "Dancing Script" ,sans-serif;
+  font-size: 80px;
+}
+
+.subtitle {
+  font-family: "Dancing Script" ,sans-serif;
+  font-size: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  position: relative;
+  left: 220px;
+  top: 20px;
+}
+
+.mountain {
+  position: relative;
+  left: 5px;
+}
+
+p {
+  font-family: sans-serif;
+  width: 90%;
+  margin: 0 auto 20px auto;
+}
+
+.profile_pic {
+  padding-top: 150px;
+  border-radius: 50%;
+  max-width: 15%;
+  height:auto;
+}
+
+.skillsimg {
+  border-radius: 50%;
+  height:auto;
+  max-width: 17%;
+}
