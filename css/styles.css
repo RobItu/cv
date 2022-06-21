@@ -1,5 +1,5 @@
 div {
-  background-color: powderblue;
+  background-color: #dcecf9;
 }
 
 body {
@@ -8,12 +8,23 @@ body {
 }
 
 h1 {
-  margin-top: 0;
+  margin-top: 100px;
+  margin-bottom: 5px;
   font-family: "Dancing Script" ,sans-serif;
   font-size: 80px;
 }
 
+hr {
+  margin: 50px auto;
+  border-style: dotted none none none;
+  border-width: 5px;
+  color: grey;
+  width: 10%
+
+}
+
 .subtitle {
+  margin-top: 0;
   font-family: "Dancing Script" ,sans-serif;
   font-size: 30px;
 }
@@ -23,20 +34,24 @@ h1 {
 }
 
 .top-cloud {
+  margin-top: 20px;
   position: relative;
   left: 220px;
   top: 20px;
 }
 
 .mountain {
+  padding-top: 70px;
   position: relative;
   left: 5px;
 }
 
 p {
+  line-height: 2;
   font-family: sans-serif;
-  width: 90%;
+  width: 50%;
   margin: 0 auto 20px auto;
+  font-weight: normal;
 }
 
 .profile_pic {
@@ -46,8 +61,32 @@ p {
   height:auto;
 }
 
-.skillsimg {
+.hobbies_icon {
   border-radius: 50%;
-  height:auto;
-  max-width: 17%;
+  max-width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+
+.languages_icon {
+  border-radius: 50%;
+  max-width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.skill-row {
+  margin: 70px auto;
+  width: 50%;
+  text-align: left;
+}
+h2 {
+  color: #66BFBF;
+  width: 50%;
+  margin:  0 auto;
+  line-height: 2;
+}
+
+.bottom-container {
+  line-height: 2;
 }
